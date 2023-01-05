@@ -12,7 +12,7 @@ This plugin creates a custom command "partial_pager" that will scroll the page b
 
 -   Package Control: Add repository
 -   Add https://github.com/dperdikopoulos/Partial-Pager
--   Package Control: Install Package 'Partial Pager'
+-   Package Control: Install Package 'Partial-Pager'
 
 ## Create a keybinding
 
