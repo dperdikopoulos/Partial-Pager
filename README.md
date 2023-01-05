@@ -8,13 +8,19 @@ When using pageup and pagedown keys to navigate, the file scrolls the full viewp
 
 This plugin creates a custom command "partial_pager" that will scroll the page by the provided amount. This command can be then binded to pageup, pagedown keys.
 
+## Installation
+
+-   Package Control: Add repository
+-   Add https://github.com/dperdikopoulos/partialPager
+-   Package Control: Install Package 'Partial Pager'
+
 ## Create a keybinding
 
 After installing the plugin create a key binding to the command. In this example the viewport is scrolled by half the viewport.
 
 ```
-    { "keys": ["pageup"], "command": "partial_pager", "args": {"amount": -0.5}},
-    { "keys": ["pagedown"], "command": "partial_pager","args": {"amount": 0.5}},
+{ "keys": ["pageup"], "command": "partial_pager", "args": {"amount": -0.5}},
+{ "keys": ["pagedown"], "command": "partial_pager","args": {"amount": 0.5}},
 ```
 
 ## Credits
